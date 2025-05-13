@@ -4,7 +4,7 @@ public class Library {
         Book item1 = new Book("To Kill a Mockingbird", 120, true);
         Book item2 = new Book("The Fellowship of the ring", 200, false);
 
-        Novel novel1 = new Novel("lutfi", "self-help", "The subtle art of not giving a fuck", 432, true );
+        Novel novel1 = new Novel("Mark Manson", "self-help", "The subtle art of not giving a fuck", 432, true );
 
         // System.out.println(title + " (Novel, " + issueNumber + "), " + pages + " pages, month published" + monthPublication + " available " + available);
 
