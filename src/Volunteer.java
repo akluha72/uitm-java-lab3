@@ -14,8 +14,6 @@ public abstract class Volunteer {
         this.numOfSession = 0;
     }
 
-    ;
-
     //normal constructor
     public Volunteer(String id, String name, double allowance, int numOfSessions) {
         this.id = id;
@@ -23,8 +21,6 @@ public abstract class Volunteer {
         this.allowance = allowance;
         this.numOfSession = numOfSessions;
     }
-
-    ;
 
     //accessor method
     public String getId() {
