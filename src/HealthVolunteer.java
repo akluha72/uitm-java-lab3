@@ -30,8 +30,26 @@ public class HealthVolunteer extends Volunteer {
                 + ", Type of Service: " + typeService;
     }
 
+    @Override
     public double netAllowance() {
-        return 0;
+        double totalNetAllowance = 0;
+
+        int typeA = 50;
+        int typeB = 100;
+
+        switch (typeService) {
+            case 'A':
+                totalNetAllowance = allowance + (numOfSession * typeA);
+                break;
+            case 'B':
+                totalNetAllowance = allowance + (numOfSession * typeB);
+                break;
+            default:
+                System.out.println("ERROR typeService is not valid");
+                break;
+        }
+        // TODO - Start at rela calculation part
+        return totalNetAllowance;
 
     }
 
